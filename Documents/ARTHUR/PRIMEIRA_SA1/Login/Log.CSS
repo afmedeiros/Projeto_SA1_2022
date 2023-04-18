@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url(Kanit-Medium.ttf) format('truetype');
+  
+}
+
+@font-face {
+    font-family: 'GabrielSans';
+    src: url(GabrielSansCond-Trial-Bold.ttf) format('truetype');
+}
+
+@font-face {
+     
+    font-family: 'GabrielSansN';
+    src: url(GabrielSansCond-Trial-Normal.ttf) format('truetype');
+
+
+}
+
+
+html{
+
+    height: 99.95%;
+    width: 100%;
+
+}
+
+.style96{
+    height: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GabrielSansN';
+    color:#4B556C;
+    font-size: 14px;
+    margin: 1px;
+    letter-spacing: 3px;
+   
+
+}
+
+
+body{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+#container{
+
+    height: 99.95%;
+    background-color: white;
+    display: flex;
+
+}
+
+#esquerda{
+    height: 99.95%;
+    width: 40%;
+    
+
+}
+
+#cima-esq{
+    height: 79.95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+
+#texto{
+    font-family: 'Kanit';
+    font-size: 60px;
+
+}
+
+#gmail{
+    height: 5%;
+    width: 70%;
+    font-family: 'GabrielSansN';
+    font-size: 23px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border-color: #b2b8ad88;
+
+}
+
+#senha{
+    height: 5%;
+    width: 70%;
+    font-family: 'GabrielSansN';
+    font-size: 23px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border-color: #b2b8ad88;
+
+}
+
+#cast{
+    
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background-color:transparent;
+	border-radius:15px;
+	border:0px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family: 'GabrielSansN';
+	font-size:20px;	
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+    display: flex;
+   
+    }
+
+
+    #cast:hover  {
+        background-color: rgb(224, 222, 222);
+        
+    }
+    #cast.active {
+        position:relative;
+        top:1px;
+    }
+
+
+
+#baixo-esq{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'GabrielSansN';
+    font-size: 15px;    
+    
+
+}
+
+#direita{
+    height: 100%;
+    width: 60%;
+
+}
+
+#imagem{
+    height: 99.95%;
+    opacity: 0.7;
+    width: 100%;
+}
+
+#imagem2
+{
+    max-width: 100%;
+    height: auto;
+}
+
+#logar{
+    
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background-color:transparent;
+	border-radius:15px;
+	border:0px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family: 'GabrielSans';
+	font-size:30px;	
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+    display: flex;
+   
+    }
+
+
+    #logar:hover  {
+        background-color: rgb(224, 222, 222);
+        
+    }
+    #logar.active {
+        position:relative;
+        top:1px;
+    }
+    
+    #bee{
+        height: 9%;
+        width: 100%;
+        display:flex;
+        justify-content: center;        
+        align-items: center;        
+
+    }
+    #bee2{
+        height: 100%;
+        width: 30%;
+        display:flex;
+        justify-content: space-evenly;        
+        align-items: center;
+        
+
+    }
+

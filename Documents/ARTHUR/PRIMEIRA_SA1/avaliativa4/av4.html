@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Perfil</title>
+        <link rel="stylesheet" href="av4.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="esquerda">
+                <div id="esq-cima">
+                <h1 class="titulo">ArtMarket</h1>
+                </div>
+                    <div id="esq-baixo">            
+
+                            <label class="textos">Nome do Produto</label>
+                            <input class="mudar" id="nome">
+                            <label class="textos">Marca do Produto</label>
+                            <input class="mudar" id="marca">
+                            <label class="textos">Valor do Produto</label>
+                            <input class="mudar" id="valor"> 
+                    </div>
+                    <div id="botoes">
+                            <button id="buton" onclick="CadastraProduto()">CADASTRAR</button>
+                            <button id="buton" onclick="ListaProduto()">APRESENTAR</button>
+                            <button id="buton" onclick="AlteraProduto()">ALTERAR</button>                             
+                            <button id="buton" onclick="DeletaProduto()">DELETAR</button>
+                    </div>
+                </div>
+            
+            <div id="meio">
+                <div id="dir-cima">
+                    
+                    <h1 class="titulo">Lista de Produtos</h1>
+                    
+                </div>
+
+                <div id="dir-baixo" class='textos'>
+
+                </div>                                        
+        </div>
+        <script src="av4.js"></script>
+    </body>
+</html>

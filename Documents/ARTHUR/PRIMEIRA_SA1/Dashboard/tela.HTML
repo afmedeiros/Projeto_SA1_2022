@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="tela.CSS">
+    </head>
+    <body bgcolor="#5c5c5c">
+        <div id="container">
+            <div id="menu">
+                <div id="usuarioLogado">
+                    <center>
+                    <img src="logo2711.png" id="logotipo">
+                    </center>
+
+                </div>
+
+
+                <div id="telas">
+
+                    <button id="botoes" onclick="Dash()">DASHBOARD</button>
+                    <button id="botoes" onclick="ambiente()">CADASTRAR AMBIENTE</button>
+                    <button id="botoes" onclick="dispositivo()">CADASTRAR DISPOSITIVO</button>
+                    <button id="botoes" onclick="PerfilUser()">PERFIL</button>
+
+                </div>
+                <div id="deslog">
+                    <button id="botoes" onclick="Delet()">SAIR</button>
+
+                </div>
+            </div>
+            <div id="tela">
+                <div id="esquerda">
+                    
+                    <div id="cima">
+                        <label id="mensag">AMBIENTE</label>
+                        <select id="sel" class="mudar2" >
+                                                                           
+    
+                            <option value="" disabled selected>Selecione aqui</option>
+                                                    
+                        </select>
+                       
+                            <BR><BR>
+                                <label id="mensag">DISPOSITIVO 1</label>
+                                <select id="sel2" class="mudar2">                                                 
+                                    
+                                    <option value="" disabled selected>Selecione aqui</option>
+                                    
+                                    
+                                </select>
+                                
+                            <BR><BR>
+                                <label id="mensag">DISPOSITIVO 2</label>
+                                <select id="sel3" class="mudar2" >                                                 
+                                    
+                                    <option value="" disabled selected>Selecione aqui</option>
+                                    
+                                </select>
+                            </div>
+                            
+                        </div>
+                        <div id="direita">
+                    
+                            <div id="direita1"><BR>
+                                    <div id="dispo22" class="style96"></div>
+                                    <div id="dispo2" class="style99"></div>
+                                    
+                                
+                                <div class="frame">
+                                    <div class="center">
+                                          <div class="temparature-meter__container">
+                                              <div class="temparature-meter__inner">
+                                                  <div class="temparature-meter__inner-ring">
+                                                      <div class="temparature-outside">
+                                                        <span>Max</span>
+                                                        <div id="tempeMax">
+                                                            <span>°C</span>
+
+
+                                                        </div>
+                                                    </div>
+                                                      
+                                                      <div class="temparature-inside">
+                                                          <span class="temparature-count c1" id="entradaAnalogicaX"></span>
+                                                          <span class="temperature-sup">°C</span>
+                                                        </div>
+                                                          
+                                                      <div class="temparature-meter__inner-label">
+                                                        <span>Min</span>
+                                                        <div id="tempeMin">
+                                                        
+                                                        </div>
+
+                                                    </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                    </div>
+                                    
+                                  </div>
+                        
+                                  <p>
+                                    
+                                    <div class="style98" id="saidaDigital"></div>
+                                
+                                
+                                    <div class="botoesCentro">
+                                    <button class="button9" onclick="clickOn()">ON</button> 
+                                    <button class="button9 button8" onclick="clickOff()">OFF</button><br>
+                                    <button class="buttonR" onclick="relatorioGeral()">GERAR RELATORIO</button>
+                                    
+                                </div>
+                                </p>
+                               <div id="textos55"></div>
+                                  
+                                </p>
+                        
+                        
+                            </div>
+                    
+                    
+                    
+                    <div id="direita2">
+                        
+                            <div id="dispo23" class="style95"></div>
+                            <div id="dispo3" class="style97"></div>
+                            <br>
+                        
+                        <div class="frame">
+                            <div class="center">
+                                  <div class="temparature-meter__container">
+                                    <div class="temparature-meter__inner">
+                                        <div class="temparature-meter__inner-ring">
+                                            <div class="temparature-outside">
+                                              <span>Max</span>
+                                              <div id="tempeMax">
+                                                  <span>°C</span>
+
+
+                                              </div>
+                                          </div>
+                                            
+                                            <div class="temparature-inside">
+                                                <span class="temparature-count c1" id="entradaAnalogicaX"></span>
+                                                <span class="temperature-sup">°C</span>
+                                              </div>
+                                                
+                                            <div class="temparature-meter__inner-label">
+                                              <span>Min</span>
+                                              <div id="tempeMin">
+                                              
+                                              </div>
+
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <p>
+                          
+                          <div class="style98" id="saidaDigital2"></div>
+                      
+                      
+                          <div class="botoesCentro">
+                          <button class="button9" onclick="clickOn()">ON</button> 
+                          <button class="button9 button8" onclick="clickOff()">OFF</button><br>
+                          <button class="buttonR" onclick="relatorioGeral()">GERAR RELATORIO</button>
+                          
+                      </div>
+                      </p>
+                     
+                        
+                      </p>
+                           
+                        </div>
+                  
+                   
+                      
+                    
+            
+            
+                </div>
+            </div>
+            
+        </div>
+        <script src="tela.JS"></script>
+        <script src="main.js"></script>
+        <script src="main2.js"></script>
+        <script src="main3.js"></script>
+        <script src="file.js"></script>
+    </body>
+    </html>
+    
+    
+    
+    

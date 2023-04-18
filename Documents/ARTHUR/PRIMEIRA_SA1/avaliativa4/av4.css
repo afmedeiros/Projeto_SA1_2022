@@ -1,0 +1,172 @@
+@font-face {
+
+    font-family: 'Kanit';
+    src: url(Kanit-Medium.ttf) format('truetype');
+    color: gray;
+    opacity: 0.6;
+
+}
+
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+#container{
+
+    height: 100%;
+    background-color: white;
+    display: flex;
+
+}
+
+#esquerda{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+#meio{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    
+
+}
+
+#esq-cima{
+    height: 15%;
+width: 100%;
+display: flex;
+background-color:rgba(98, 98, 240, 0.589);
+justify-content: center;
+flex-direction: column;    
+align-items: center;
+}
+
+#esq-baixo{
+    height: 100%;
+width: 100%;
+display: flex;
+background-color:rgba(98, 98, 240, 0.589);
+justify-content: center;
+flex-direction: column;    
+align-items: center;
+}
+
+#dir-cima{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color:rgba(98, 98, 240, 0.589);
+    justify-content: center;
+    flex-direction: column;    
+    align-items: center;
+    opacity:0.8;
+    
+}
+#dir-baixo{
+    height: 100%;
+width: 100%;
+display: flex;
+background-color:rgba(98, 98, 240, 0.589);
+justify-content: center;
+flex-direction: column;    
+align-items: center;
+opacity:0.8;
+
+}
+
+
+#botoes
+{
+    height: 50%;
+    width: 100%;
+    font-family: 'Kanit';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;    
+    background-color:rgba(98, 98, 240, 0.589);
+
+}
+
+
+
+#alteracoes{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    
+}
+
+#esque{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+.mudar{
+    height: 7%;
+    width: 95%;
+    font-family: 'Kanit';
+    font-size: 20px;
+    border-radius: 60px;
+    padding-left: 10px;
+
+}
+
+.textos{
+    height: 7%;
+    width: 30%;
+    font-family: 'Kanit';
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    
+
+}
+
+
+.titulo{
+    height: 7%;
+    width: 70%;
+    font-family: 'Kanit';
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#buton{
+    height: 17%;
+    width: 16%;
+    border-radius: 60px;
+    font-family: 'Kanit';
+    margin: 3px
+
+}
+
+#buton:hover 
+
+{ background-color: rgb(92, 92, 92);
+
+}
